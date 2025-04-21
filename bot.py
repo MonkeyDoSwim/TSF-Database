@@ -4,6 +4,7 @@ from discord.ext import commands
 import json
 import os
 bot.run(os.getenv("DISCORD_BOT_TOKEN"))
+
 # Initialize intents and bot
 intents = discord.Intents.default()
 bot = commands.Bot(command_prefix="!", intents=intents)
