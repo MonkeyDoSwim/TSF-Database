@@ -1,0 +1,46 @@
+[
+  {
+    "name": "The Miz - Must See Superstar",
+    "gems": [
+      "multiply",
+      "yellow",
+      "red"
+    ]
+  },
+  {
+    "name": "Grayson Waller - The Grayson Waller Effect",
+    "gems": [
+      "multiply",
+      "green",
+      "blue"
+    ]
+  },
+  {
+    "name": "Seth Rollins - Radical Revolutionary",
+    "gems": [
+      "trap",
+      "color turn",
+      "multiply",
+      "blue",
+      "black",
+      "purple"
+    ]
+  },
+  {
+    "name": "Liv Morgan - ObLIVion",
+    "gems": [
+      "color turn",
+      "red",
+      "purple"
+    ]
+  },
+  {
+    "name": "Roman Reigns - Shredder",
+    "gems": [
+      "multiply",
+      "botch",
+      "green",
+      "purple"
+    ]
+  }
+]
