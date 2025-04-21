@@ -3,7 +3,6 @@ from discord import app_commands
 from discord.ext import commands
 import json
 import os
-bot.run(os.getenv("DISCORD_BOT_TOKEN"))
 
 # Initialize intents and bot
 intents = discord.Intents.default()
@@ -88,7 +87,5 @@ async def gems_autocomplete(interaction: discord.Interaction, current: str):
         app_commands.Choice(name=g, value=g) for g in GEM_CHOICES if g.startswith(current.lower())
     ]
 
-
-
-
-
+# Finally, run the bot
+bot.run(os.getenv("DISCORD_BOT_TOKEN"))
